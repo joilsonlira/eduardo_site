@@ -4,11 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'gotham', 'gotham-bold', roboto, sans-serif;/*IMPORTAR fonts */
+    font-family: 'gotham', 'gotham-bold', 'gotham-italic', roboto, sans-serif;
 }
 :root{
-    --height-MAIN_HEADER: 15vh;
+    --height-MAIN_HEADER: 10vh;
+    --default-horizontal-SPACING: 2.4vw;
+    --default-vertical-SPACING: 3vh;
     --color-BG: #231F20;
+    --color-MAIN: #FFC309;
+    --color-SECOND: #FF6C2F;
 }
 html{
     scroll-behavior: smooth;
@@ -30,13 +34,6 @@ section{
 
 #home{
     margin-top: var(--height-MAIN_HEADER);
-    background-color: aquamarine;
-}
-.--2{
-    background-color: coral;
-}
-.--3{
-    background-color: aquamarine;
 }
 
 #main_header{
