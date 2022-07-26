@@ -3,13 +3,19 @@
 *::before{
     margin: 0;
     padding: 0;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: 'gotham', 'gotham-bold', 'gotham-italic', roboto, sans-serif;
 }
 :root{
     --height-MAIN_HEADER: 10vh;
     --default-horizontal-SPACING: 2.4vw;
+    --minimum-horizontal-SPACING: .8vw;
     --default-vertical-SPACING: 3vh;
+    --max-vertical-SPACING: 5vh;
+    --minimum-vertical-SPACING: 1vh;
     --color-BG: #231F20;
     --color-MAIN: #FFC309;
     --color-SECOND: #FF6C2F;
@@ -20,16 +26,24 @@ html{
 :target{
     scroll-margin-top: var(--height-MAIN_HEADER);
 }
+
+
 body{
     background-color: var(--color-BG);
 }
+
+
 
 section, #main_header, #main_footer{
     width: 100%;
 }
 
 section{
-    height: 85vh;
+    height: 90vh;
+}
+main{
+    margin: 0 auto;
+    max-width: 1366px;
 }
 
 #home{
@@ -37,12 +51,42 @@ section{
 }
 
 #main_header{
-    position: fixed;
-    z-index: 1;
     top: 0;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    align-items: flex-end;
+    max-width: 1366px;
+    justify-content: space-between;
+    border-bottom: 1px inset gold;
     height: var(--height-MAIN_HEADER);
-    background-color: rgba(138, 43, 226, .8);
+    min-height: var(--height-MAIN_HEADER);
+    background-color: var(--color-BG);
 }
-#main_footer{
-    
+.logo{
+    width: 10vw;
+    height: auto;
 }
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    font-family: 'roboto';
+    text-transform: uppercase;
+    gap: var(--default-horizontal-SPACING);
+    padding-bottom: var(--minimum-vertical-SPACING);
+}
+
+
+
+
+
+
+
+
+
