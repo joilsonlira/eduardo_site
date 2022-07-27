@@ -91,7 +91,7 @@ h2{
 }
 .highlight div:nth-child(5) > p:nth-child(4){
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 .highlight div:nth-child(5){
     margin-left: 2.5%;

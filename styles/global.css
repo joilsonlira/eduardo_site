@@ -16,7 +16,7 @@
     font-weight: normal;
     font-style: normal;}
 :root{
-    --height-MAIN_HEADER: 10vh;
+    --height-MAIN_HEADER: 12vh;
     --default-horizontal-SPACING: 2.4vw;
     --minimum-horizontal-SPACING: .8vw;
     --default-vertical-SPACING: 3vh;
@@ -46,7 +46,7 @@ section, #main_header, #main_footer{
 
 section{
     padding: 0 var(--default-horizontal-SPACING);
-    height: 90vh;
+    height: 88vh;
     max-width: 1366px;
 }
 main{
