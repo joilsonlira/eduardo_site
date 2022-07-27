@@ -7,8 +7,14 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'gotham', 'gotham-bold', 'gotham-italic', roboto, sans-serif;
+    font-family: 'gotham';
 }
+@font-face {
+    font-family: 'gotham';
+    src: url('../components/fonts/gotham.woff2') format('woff2');
+    src: url('../components/fonts/gotham.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
 :root{
     --height-MAIN_HEADER: 10vh;
     --default-horizontal-SPACING: 2.4vw;
@@ -16,9 +22,11 @@
     --default-vertical-SPACING: 3vh;
     --max-vertical-SPACING: 5vh;
     --minimum-vertical-SPACING: 1vh;
-    --color-BG: #231F20;
+    --color-BG: black;
     --color-MAIN: #FFC309;
     --color-SECOND: #FF6C2F;
+    --color-COMPLEMENTAR_1: #b78c30;
+    --color-COMPLEMENTAR_2: #faedbc;
 }
 html{
     scroll-behavior: smooth;
@@ -39,6 +47,7 @@ section, #main_header, #main_footer{
 }
 
 section{
+    padding: 0 var(--default-horizontal-SPACING);
     height: 90vh;
 }
 main{
@@ -55,13 +64,21 @@ main{
     z-index: 1;
     display: flex;
     position: fixed;
-    align-items: flex-end;
     max-width: 1366px;
+    padding: 0 var(--default-horizontal-SPACING);
+    align-items: flex-end;
     justify-content: space-between;
-    border-bottom: 1px inset gold;
+    /* border-bottom: 1px inset gold; */
     height: var(--height-MAIN_HEADER);
-    min-height: var(--height-MAIN_HEADER);
     background-color: var(--color-BG);
+    min-height: var(--height-MAIN_HEADER);
+}
+.barra{
+    position:absolute;
+    width: 96%;
+    height: 1px;
+    background: rgb(253,187,45);
+background: linear-gradient(318deg, rgba(253,187,45,1) 0%, rgba(250,155,54,1) 25%, rgba(255,255,255,1) 50%, rgba(250,155,54,1) 75%, rgba(253,187,45,1) 100%);
 }
 .logo{
     width: 10vw;
@@ -81,12 +98,4 @@ main{
     gap: var(--default-horizontal-SPACING);
     padding-bottom: var(--minimum-vertical-SPACING);
 }
-
-
-
-
-
-
-
-
 
