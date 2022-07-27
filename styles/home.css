@@ -18,13 +18,14 @@ h2{
     position: absolute;
     display: flex;
     justify-content: right;
-    width: 95%;
+    max-width: 1366px;
     height: 90%;
+    margin: 0 auto;
 }
 .information{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: left;
     flex-direction: column;
     width: 50%;
 }
@@ -57,12 +58,18 @@ h2{
 
     
 }
+#home .information{
+    gap: 50px;
+}
+#home .information img{
+    margin-top: 50px;
+}
 
 .highlight{
     display: flex;
     justify-content: center;
     width: 75%;
-    height: 40%;
+    height: auto;
     /* border: 2px inset white; */
 }
 .highlight div:nth-child(3),.highlight div:nth-child(4){
@@ -74,10 +81,11 @@ h2{
 
 }
 .highlight div:nth-child(4) > h3{
-    font-size: 3.5vw;
+    /* font-size: 3.5vw; */
 }
 .highlight div:nth-child(4) > p:nth-child(4){
-    font-size: .64em;
+    font-size: .69em;
+    width: 15vw;
 }
 .highlight div:nth-child(5) > p:nth-child(4){
     margin: 0 auto;
@@ -99,12 +107,13 @@ h2{
 .highlight_bg_right{
     display: flex;
     align-items:baseline;
-    margin-top: 5%;
+    margin-top: 70px;
 }
 
 .highlight_info{
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     width: 12vw;
     height: 29vh;
@@ -136,9 +145,9 @@ h2{
 #section1{
     display: flex;
     justify-content: end;
+    max-width: 1366px;
 }
 #section1 .information{
-    justify-content: flex-start;
     width: 45%;
     height: 100%;
     gap: 2vh;
@@ -155,21 +164,24 @@ h2{
     line-height: 24px;
     text-transform: uppercase;
     margin-bottom: var(--default-vertical-SPACING);
-    color: --color-SECOND;
+    color: var(--color-MAIN);
 }
 #section1 .information p{
     font-size: 1.3em;
     margin-bottom: var(--default-vertical-SPACING);
-
 
 }
 .information span{
     font-weight: bolder;
     color: var(--color-COMPLEMENTAR_2);
 }
+#home .info{
+    margin-right: 30px;
+}
 #section1 .info{
     display: flex;
     justify-content: left;
+    margin-left: 30px;
 }
 #section1 .info{
     background: linear-gradient(90.01deg, #000000 46.07%, rgba(0, 0, 0, 0) 71.75%, rgba(0, 0, 0, 0) 93.39%, #000000 98.35%);
