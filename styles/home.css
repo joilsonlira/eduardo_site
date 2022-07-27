@@ -19,7 +19,7 @@ h2{
     display: flex;
     justify-content: right;
     max-width: 1366px;
-    height: 90%;
+    height: 91%;
     margin: 0 auto;
 }
 .information{
@@ -180,12 +180,11 @@ h2{
 }
 #section1 .info{
     display: flex;
-    justify-content: left;
     margin-left: 30px;
-}
-#section1 .info{
+    justify-content: left;
     background: linear-gradient(90.01deg, #000000 46.07%, rgba(0, 0, 0, 0) 71.75%, rgba(0, 0, 0, 0) 93.39%, #000000 98.35%);
 }
+
 .photo{
     overflow: hidden;
     width: auto;
@@ -194,12 +193,20 @@ h2{
 .photo img{
     width: auto;
     height: 100%;
+
+}
+.social{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
 }
 .social_icom{
     display: flex;
-    width: auto;
     align-self: center;
     justify-content: space-between;
     gap: 20px;
-    
+    width: 200px;
+}
+.social_icom img{
+    width: 100%;
 }
