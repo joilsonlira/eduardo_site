@@ -26,6 +26,8 @@ h2{
     display: flex;
     align-items: center;
     justify-content: left;
+    font-size: 1.4em;
+    line-height: 28px;
     flex-direction: column;
     width: 50%;
 }
@@ -44,7 +46,7 @@ h2{
     height: 100%;
 }
 #home p, .information p{
-    font-size: 28px;
+    /* font-size: 28px; */
     text-align: justify;
     line-height: auto;
     color: rgb(247, 247, 247);
@@ -80,9 +82,9 @@ h2{
     margin-right: 2.5%;
 
 }
-.highlight div:nth-child(4) > h3{
-    /* font-size: 3.5vw; */
-}
+/* .highlight div:nth-child(4) > h3{
+    font-size: 3.5vw;
+} */
 .highlight div:nth-child(4) > p:nth-child(4){
     font-size: .69em;
     width: 15vw;
@@ -145,7 +147,6 @@ h2{
 #section1{
     display: flex;
     justify-content: end;
-    max-width: 1366px;
 }
 #section1 .information{
     width: 45%;
@@ -167,13 +168,13 @@ h2{
     color: var(--color-MAIN);
 }
 #section1 .information p{
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
     margin-bottom: var(--default-vertical-SPACING);
 
 }
 .information span{
     font-weight: bolder;
-    color: var(--color-COMPLEMENTAR_2);
+    color: var(--color-MAIN);
 }
 #home .info{
     margin-right: 30px;
@@ -205,7 +206,7 @@ h2{
     align-self: center;
     justify-content: space-between;
     gap: 20px;
-    width: 200px;
+    width: 180px;
 }
 .social_icom img{
     width: 100%;

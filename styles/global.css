@@ -40,8 +40,6 @@ body{
     background-color: var(--color-BG);
 }
 
-
-
 section, #main_header, #main_footer{
     width: 100%;
 }
@@ -49,6 +47,7 @@ section, #main_header, #main_footer{
 section{
     padding: 0 var(--default-horizontal-SPACING);
     height: 90vh;
+    max-width: 1366px;
 }
 main{
     margin: 0 auto;
@@ -68,14 +67,13 @@ main{
     padding: 0 var(--default-horizontal-SPACING);
     align-items: flex-end;
     justify-content: space-between;
-    /* border-bottom: 1px inset gold; */
     height: var(--height-MAIN_HEADER);
     background-color: var(--color-BG);
     min-height: var(--height-MAIN_HEADER);
 }
 .barra{
     position:absolute;
-    width: 95%;
+    width: 96%;
     max-width: 1366px;
     height: 1px;
     background: rgb(253,187,45);
@@ -105,4 +103,14 @@ main{
     align-items: center;
     justify-content: center;
     height: 248px;
+}
+@media (min-width:1367px) {
+    #main_header{
+        padding-left: 0;
+        padding-right: var(--minimum-horizontal-SPACING);
+        width: 100%;
+    }
+    .barra{
+        width: 100%;
+    }
 }
