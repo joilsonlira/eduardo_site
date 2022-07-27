@@ -163,7 +163,7 @@ h2{
 
 
 }
-#section1 .information span{
+.information span{
     font-weight: bolder;
     color: var(--color-COMPLEMENTAR_2);
 }
@@ -182,4 +182,12 @@ h2{
 .photo img{
     width: auto;
     height: 100%;
+}
+.social_icom{
+    display: flex;
+    width: auto;
+    align-self: center;
+    justify-content: space-between;
+    gap: 20px;
+    
 }

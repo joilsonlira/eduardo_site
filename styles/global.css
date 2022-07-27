@@ -99,3 +99,10 @@ background: linear-gradient(318deg, rgba(253,187,45,1) 0%, rgba(250,155,54,1) 25
     padding-bottom: var(--minimum-vertical-SPACING);
 }
 
+#main_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 248px;
+}
+
