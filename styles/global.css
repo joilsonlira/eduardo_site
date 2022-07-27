@@ -75,7 +75,7 @@ main{
 }
 .barra{
     position:absolute;
-    width: 96%;
+    width: 95.5%;
     height: 1px;
     background: rgb(253,187,45);
 background: linear-gradient(318deg, rgba(253,187,45,1) 0%, rgba(250,155,54,1) 25%, rgba(255,255,255,1) 50%, rgba(250,155,54,1) 75%, rgba(253,187,45,1) 100%);

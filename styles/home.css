@@ -6,14 +6,7 @@
     background-position: left;
     background-repeat: no-repeat;
 }
-.information{
-    width: 50%;
-    display: flex;
-    padding: 0 30px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
+
 h2{
     width: 100%;
     height: auto;
@@ -23,8 +16,20 @@ h2{
 }
 .info{
     position: absolute;
+    display: flex;
+    justify-content: right;
     width: 95%;
     height: 90%;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+}
+.information img{
+    width: 70%;
 }
 #home{
     justify-content: left;
@@ -130,17 +135,41 @@ h2{
 }
 #section1{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
+    justify-content: end;
 }
 #section1 .information{
-    width: 50%;
+    justify-content: flex-start;
+    width: 45%;
+    height: 100%;
+    gap: 2vh;
 }
-#section1{
-    justify-content: end;
+#section1 .information h1{
+    width: 100%;
+    margin-top: var(--default-vertical-SPACING);
+    color: var(--color-COMPLEMENTAR_1);
+    text-transform: uppercase;
+    font-family: 'roboto';
+}
+#section1 .information h2{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: var(--default-vertical-SPACING);
+    color: --color-SECOND;
+}
+#section1 .information p{
+    font-size: 1.3em;
+    margin-bottom: var(--default-vertical-SPACING);
+
+
+}
+#section1 .information span{
+    font-weight: bolder;
+    color: var(--color-COMPLEMENTAR_2);
+}
+#section1 .info{
+    display: flex;
+    justify-content: left;
 }
 #section1 .info{
     background: linear-gradient(90.01deg, #000000 46.07%, rgba(0, 0, 0, 0) 71.75%, rgba(0, 0, 0, 0) 93.39%, #000000 98.35%);
