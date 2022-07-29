@@ -82,9 +82,9 @@ h2{
     margin-right: 2.5%;
 
 }
-/* .highlight div:nth-child(4) > h3{
-    font-size: 3.5vw;
-} */
+.highlight div:nth-child(4) > h3{
+    /* font-size: 4vw; */
+}
 .highlight div:nth-child(4) > p:nth-child(4){
     font-size: .69em;
     width: 15vw;
