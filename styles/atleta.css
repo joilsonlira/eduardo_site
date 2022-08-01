@@ -1,0 +1,38 @@
+.--3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 450px;
+    background-color: aquamarine;
+}
+.row{
+    display: flex;
+    gap: 50px;
+}
+.slide_item{
+    width: 300px;
+    height: 250px;
+}
+.--a{
+    order: 1;
+    transform: scale(1);
+    background-color: rgb(13, 73, 53);
+}
+.--b{
+    order: 2;
+    transform: scale(1);
+    background-color: aqua;
+}
+.--c{
+    order: 3;
+    transform: scale(1);
+    background-color: yellowgreen;
+}
