@@ -97,12 +97,44 @@ main{
     gap: var(--default-horizontal-SPACING);
     padding-bottom: var(--minimum-vertical-SPACING);
 }
+.menu_item:hover{
+    transition: all 100ms linear;
+    color: var(--color-MAIN);
+    font-weight: bolder;
+    transform: scale(1.1);
+}
 
 #main_footer{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 248px;
+}
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contato_info ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+.contato_info ul li{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-center;
+    align-items: center;
+    height: 4vh;
+    margin-top: 15px;
+}
+.contato_info img{
+    width: auto;
+    height: 100%;
 }
 @media (min-width:1367px) {
     #main_header{

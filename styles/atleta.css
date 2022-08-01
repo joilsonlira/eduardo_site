@@ -32,6 +32,7 @@
     background-color: aqua;
 }
 .--c{
+    left: -4;
     order: 3;
     transform: scale(1);
     background-color: yellowgreen;
