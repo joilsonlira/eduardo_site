@@ -98,10 +98,10 @@ main{
     padding-bottom: var(--minimum-vertical-SPACING);
 }
 .menu_item:hover{
-    transition: all 100ms linear;
-    color: var(--color-MAIN);
     font-weight: bolder;
     transform: scale(1.1);
+    color: var(--color-MAIN);
+    transition: all 100ms linear;
 }
 
 #main_footer{
@@ -137,6 +137,13 @@ main{
     height: 100%;
 }
 @media (min-width:1367px) {
+    main{
+
+        width: 1366px;
+    }
+    section{
+        padding: 0 0 0 0;
+    }
     #main_header{
         padding-left: 0;
         padding-right: var(--minimum-horizontal-SPACING);

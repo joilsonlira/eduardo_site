@@ -2,6 +2,7 @@
 #home{
     display: flex;
     justify-content: end;
+    align-items: center;
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
@@ -210,4 +211,10 @@ h2{
 }
 .social_icom img{
     width: 100%;
+}
+
+@media screen and (min-width:1367px) {
+    .highlight_bg_left, .highlight_bg_right{
+        width: 55%;
+    }
 }
