@@ -59,12 +59,12 @@ video{
     gap: 50px;
 }
 .slide_item{
-    width: 300px;
+    width: 350px;
     height: 250px;
     overflow: hidden;
 }
 .slide_item img{
-    width: 200%;
+    width: 100%;
     height: auto;
 }
 .--a{
