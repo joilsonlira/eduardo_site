@@ -82,6 +82,9 @@ section{
     color: var(--color-SECOND);
     margin-bottom: 30px;
 }
+.depoimento p{
+    font-style: italic;
+}
 #section1{
     display: flex;
     flex-wrap: wrap;

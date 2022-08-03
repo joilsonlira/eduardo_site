@@ -127,7 +127,7 @@ main{
     align-self: center;
     justify-content: space-between;
     gap: 20px;
-    width: 180px;
+    /* width: 180px; */
 }
 .social_icom img{
     width: 50px;
