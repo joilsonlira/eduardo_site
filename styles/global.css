@@ -108,7 +108,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 248px;
+    height: 30vh;
 }
 .footer_container{
     display: flex;
@@ -116,6 +116,21 @@ main{
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+.social{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+.social_icom{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 180px;
+}
+.social_icom img{
+    width: 100%;
 }
 .contato_info ul{
     display: flex;

@@ -193,21 +193,6 @@ h2{
     height: 100%;
 
 }
-.social{
-    display: flex;
-    width: auto;
-    justify-content: space-between;
-}
-.social_icom{
-    display: flex;
-    align-self: center;
-    justify-content: space-between;
-    gap: 20px;
-    width: 180px;
-}
-.social_icom img{
-    width: 100%;
-}
 
 @media screen and (min-width:1367px) {
     .highlight_bg_left, .highlight_bg_right{

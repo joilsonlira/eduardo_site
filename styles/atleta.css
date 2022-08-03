@@ -1,8 +1,44 @@
+body{
+    color: white;
+}
+#home{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 70%;
+    margin-top: 30px;
+}
+.box p{
+    margin-top: 30px;
+}
+.box h1{
+    font-size:1.5em;
+    color: coral;
+}
+.box h2{
+    font-size: 1em;
+    color: darkgoldenrod;
+}
+video{
+    width: 100%;
+    margin: 30px 0;
+}
+.box a{
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.5em;
+    background-color: coral;
+}
 .--3{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 .slide{
@@ -11,7 +47,7 @@
     align-items: center;
     width: 1000px;
     height: 450px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .row{
     display: flex;
