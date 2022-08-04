@@ -42,9 +42,15 @@ h2{
 #home .info{
     background: linear-gradient(90deg, #000000 1.42%, rgba(0, 0, 0, 0) 11.4%, rgba(0, 0, 0, 0) 34.05%, #000000 43.77%);
 }
-.bg_home{
+/* .bg_home{
     width: auto;
     height: 100%;
+} */
+#home .information{
+    gap: 50px;
+}
+#home .information img{
+    margin-top: 50px;
 }
 #home p, .information p{
     /* font-size: 28px; */
@@ -61,18 +67,17 @@ h2{
 
     
 }
-#home .information{
-    gap: 50px;
-}
-#home .information img{
-    margin-top: 50px;
-}
+
 
 .highlight{
     display: flex;
     justify-content: center;
     width: 75%;
     height: auto;
+    border: 30px solid white;
+    border-image: url('../components/images/Ativo\ 35PARA\ NEGOCIOS.png') 15 round;
+    /* border-image-width: 100% 0px 0px 50; */
+    /* border-image-slice: 20; */
 }
 .highlight div:nth-child(3),.highlight div:nth-child(4){
     margin: 0 2.5%;
@@ -116,7 +121,7 @@ h2{
     justify-content: center;
     text-align: center;
     width: 12vw;
-    height: 29vh;
+    /* height: 29vh; */
     color: white;
 }
 .highlight_info p:nth-child(4){
@@ -124,7 +129,7 @@ h2{
     font-weight: lighter;
 }
 .highlight_info p:nth-child(3){
-    font-size: 1.7vw;
+    /* font-size: 1.7vw; */
     font-weight: bold;
     color: var(--color-COMPLEMENTAR_1);
 }
@@ -226,13 +231,20 @@ h2{
         width: 100%;
         height: auto;
     }
+    
+    .info{
+        position: relative;
+    }
     #home,#section1{
+        flex-wrap: wrap;
         padding: 0 0 0 0;
+        height: auto;
     }
     #home .info, 
     #section1 .info{
         margin: 0 0 0 0;
         background: transparent;
+        height: auto;
     }
     section, 
     #home .information, 
@@ -243,10 +255,6 @@ h2{
     }
     #home .information img{
         margin: 0 0 0 0;
-    }
-    #section1{
-        justify-content:center;
-        height: 100vh;
     }
     #home .information p, 
     #section1 .information p{
@@ -266,9 +274,6 @@ h2{
         position: relative;
     }
     .highlight{
-        border-width: 3px;
-        border-color: var(--color-MAIN);
-        border-style: double;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;

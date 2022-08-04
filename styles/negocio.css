@@ -64,7 +64,9 @@ section{
     border-image: url('../components/images/Ativo\ 35PARA\ NEGOCIOS.png') 100% round;
     /* border-image-width: auto; */
     border-image-slice: 27;
+    overflow: hidden;
 }
+
 .container a:hover{
     font-weight: bolder;
     background-color: var(--color-SECOND);
