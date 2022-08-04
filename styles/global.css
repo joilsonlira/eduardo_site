@@ -132,6 +132,7 @@ main{
 .social_icom img{
     width: 50px;
 }
+
 .contato_info ul{
     display: flex;
     flex-direction: column;
