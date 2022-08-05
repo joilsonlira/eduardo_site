@@ -1,13 +1,4 @@
 
-#home{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
 h2{
     width: 100%;
     height: auto;
@@ -36,16 +27,17 @@ h2{
     width: 70%;
 }
 #home{
+    display: flex;
     justify-content: left;
+    align-items: center;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 #home .info{
     background: linear-gradient(90deg, #000000 1.42%, rgba(0, 0, 0, 0) 11.4%, rgba(0, 0, 0, 0) 34.05%, #000000 43.77%);
 }
-/* .bg_home{
-    width: auto;
-    height: 100%;
-} */
 #home .information{
     gap: 50px;
 }
@@ -58,17 +50,15 @@ h2{
     line-height: auto;
     color: rgb(247, 247, 247);
 }
+
+
 .highlight_container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     font-family: 'gotham';
-
-    
 }
-
-
 .highlight{
     display: flex;
     align-items: flex-start;
@@ -103,7 +93,6 @@ h2{
     position: absolute;
     object-fit: contain;
     width: 71%;
-    /* background-color: aqua; */
 }
 .highlight_bg_left img, .highlight_bg_right img{
     width: 100%;
@@ -122,7 +111,6 @@ h2{
     justify-content: center;
     text-align: center;
     width: 12vw;
-    /* height: 29vh; */
     color: white;
 }
 .highlight_info p:nth-child(4){
