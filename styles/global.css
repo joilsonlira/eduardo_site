@@ -53,6 +53,9 @@ main{
     margin: 0 auto;
     max-width: 1366px;
 }
+h1, h2, h3{
+    font-family: 'Roboto';
+}
 
 #home{
     margin-top: var(--height-MAIN_HEADER);
