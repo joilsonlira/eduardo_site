@@ -71,7 +71,8 @@ h2{
 
 .highlight{
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
     width: 75%;
     height: auto;
     border: 30px solid white;
@@ -129,7 +130,7 @@ h2{
     font-weight: lighter;
 }
 .highlight_info p:nth-child(3){
-    /* font-size: 1.7vw; */
+    font-size: 1.7vw;
     font-weight: bold;
     color: var(--color-COMPLEMENTAR_1);
 }
