@@ -163,8 +163,7 @@ main{
     clip-path: circle();
 }
 .float_btn img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
 }
 @media (min-width:1367px) {
     main{
