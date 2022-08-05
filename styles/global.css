@@ -88,7 +88,11 @@ h1, h2, h3{
     background: linear-gradient(318deg, rgba(253,187,45,1) 0%, rgba(250,155,54,1) 25%, rgba(255,255,255,1) 50%, rgba(250,155,54,1) 75%, rgba(253,187,45,1) 100%);
 }
 .logo{
-    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    width: 60px;
     height: auto;
 }
 .logo img{
