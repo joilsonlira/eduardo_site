@@ -76,7 +76,7 @@ h2{
     width: 75%;
     height: auto;
     border: 30px solid white;
-    border-image: url('../components/images/Ativo\ 35PARA\ NEGOCIOS.png') 15 round;
+    border-image: url('../components/images/Ativo\ 35PARA\ NEGOCIOS.png') 25 round;
     /* border-image-width: 100% 0px 0px 50; */
     /* border-image-slice: 20; */
 }
