@@ -65,6 +65,7 @@ section{
     justify-content: center;
     font-size: 1.5em;
     width: 100%;
+    height: auto;
     border: 20px solid black;
     transition: background-color linear 100ms;
 
