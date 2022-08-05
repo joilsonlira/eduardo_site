@@ -35,6 +35,11 @@ html{
     scroll-margin-top: var(--height-MAIN_HEADER);
 }
 
+.titulos{
+    display: block;
+    width: 100%;
+    color: var(--color-COMPLEMENTAR_1);
+}
 
 body{
     background-color: var(--color-BG);
