@@ -111,17 +111,26 @@ video{
 .empresa_container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 65%;
+    width: 65vw;
     height: 30vh;
     margin: 30px auto;
+    overflow: hidden;
 }
 .empresa_logo{
+    position: relative;
     display: flex;
+    left: 0;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    margin: 0 20px;
+    width: 30vw;
     height: auto;
+    transition: 100ms linear all;
+    opacity: .5;
+
+}
+.empresa_logo:hover{
+    opacity: 1;
 }
 .empresa_logo img{
     width: 100%;
