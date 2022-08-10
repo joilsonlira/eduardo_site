@@ -199,7 +199,6 @@ video{
     .empresa_logo{
         flex: 0 0 100%;
         left: 0;
-        /* padding: 24px; */
         scroll-snap-align: start;
         animation: animacao steps(1, start) 15s  infinite;
         -moz-animation: animacao steps(1, start) 15s  infinite;
