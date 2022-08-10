@@ -186,20 +186,22 @@ video{
         width: 100%;
     }
     .empresa_container{
+        display: flex;
         justify-content: space-between;
-        row-gap: 60px;
-        flex-wrap: wrap;
-        width: 100%;
+        width: 300px;
+        gap: 12px;
+        padding: 0 24px;
+        overflow-x: scroll;
+        scroll-snap-type: mandatory;
+        scroll-padding: 24px;
         /* height: auto; */
     }
     .empresa_logo{
-        animation: 50s animacao infinite;
-        margin-top: 20%;
-        width: auto;
-        
-        opacity: 1;
+        flex: 0 0 100%;
+        /* padding: 24px; */
+        scroll-snap-align: start;
     }
-    @keyframes animacao {
+    /* @keyframes animacao {
         0%{
             top:90%;
         }
@@ -209,5 +211,5 @@ video{
         100%{
             top:90%;
         }
-    }
+    } */
 }
