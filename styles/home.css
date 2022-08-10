@@ -110,7 +110,7 @@ h2{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 12vw;
+    width: auto;
     color: white;
 }
 .highlight_info p:nth-child(4){
@@ -118,7 +118,7 @@ h2{
     font-weight: lighter;
 }
 .highlight_info p:nth-child(3){
-    font-size: 1.7vw;
+    /* font-size: 1.7vw; */
     font-weight: bold;
     color: var(--color-COMPLEMENTAR_1);
 }
