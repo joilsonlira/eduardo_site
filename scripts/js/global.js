@@ -1,18 +1,26 @@
-var _a, _b;
+"use strict";
 var main_header = document.getElementById("main_header");
-var row_slide_img = document.querySelectorAll(".slide_item");
 var negocio_slide_img = document.querySelectorAll(".empresa_logo");
-var _loop_1 = function (i) {
-    var destaque_img = (_a = row_slide_img[i].firstElementChild) === null || _a === void 0 ? void 0 : _a.getAttribute("src");
-    var destaque_img_negocio = (_b = negocio_slide_img[i].firstElementChild) === null || _b === void 0 ? void 0 : _b.getAttribute("src");
-    setInterval(function () {
-        var _a, _b;
-        console.log((_a = row_slide_img[i].firstElementChild) === null || _a === void 0 ? void 0 : _a.setAttribute("src", destaque_img));
-        console.log((_b = row_slide_img[i].firstElementChild) === null || _b === void 0 ? void 0 : _b.setAttribute("src", destaque_img_negocio));
-        row_slide_img[1].classList.toggle('dest');
-        console.log(destaque_img);
-    }, 3000);
-};
-for (var i = 0; i < row_slide_img.length; i++) {
-    _loop_1(i);
-}
+var atleta_slide_img_a = document.querySelector('.--a');
+var atleta_slide_img_b = document.querySelector('.--b');
+var atleta_slide_img_c = document.querySelector('.--c');
+var array = [
+    "./components/images/gallery_assets/Foto 4 WTW.jpeg",
+    "./components/images/gallery_assets/Captura de Tela 2022-07-29 às 17.13.07.png",
+    "./components/images/gallery_assets/Edu palestrando no WTW.png"
+];
+var i = 0;
+var transição = 0;
+setInterval(function () {
+    // photo?.classList.remove('teste')
+    var _a, _b, _c;
+    if (i > (array.length - 1) || i < 0) {
+        i = 0;
+    }
+    (_a = atleta_slide_img_a === null || atleta_slide_img_a === void 0 ? void 0 : atleta_slide_img_a.firstElementChild) === null || _a === void 0 ? void 0 : _a.setAttribute('src', array[i - 1]);
+    (_b = atleta_slide_img_b === null || atleta_slide_img_b === void 0 ? void 0 : atleta_slide_img_b.firstElementChild) === null || _b === void 0 ? void 0 : _b.setAttribute('src', array[i]);
+    (_c = atleta_slide_img_c === null || atleta_slide_img_c === void 0 ? void 0 : atleta_slide_img_c.firstElementChild) === null || _c === void 0 ? void 0 : _c.setAttribute('src', array[i + 1]);
+    // photo?.classList.toggle('teste')
+    // atleta_slide_img_b?.classList.toggle("slide_destaque")
+    i = i + 1;
+}, 10000);
