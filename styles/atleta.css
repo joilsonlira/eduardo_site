@@ -75,13 +75,13 @@ video{
     display: flex;
     gap: 10px;
     left: 0;
-    transition: all 5s linear;
 }
 
 .slide_item{
     width: 350px;
     height: 250px;
     overflow: hidden;
+    transition: all 5s linear;
 }
 .slide_item img{
     width: 150%;
@@ -102,7 +102,6 @@ video{
     /* transform: scale(1.1); */
     background-color: yellowgreen;
 }
-
 .dest{
     transform: scale(1.2);
     background-color: aqua;
