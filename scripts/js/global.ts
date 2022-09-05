@@ -13,16 +13,11 @@ const array = [
 let i:number = 1
 
 setInterval(function(){
-    // photo?.classList.remove('teste')
-    
-    
     atleta_slide_img_a?.firstElementChild?.setAttribute('src', array[i-1])
     atleta_slide_img_b?.firstElementChild?.setAttribute('src', array[i])
     atleta_slide_img_c?.firstElementChild?.setAttribute('src', array[i+1])
-    
     i = i + 1
-    
-    if(i > (array.length - 1) || i < 0){
+    if(i > array.length - 1 || i < 0){
         i = 0
     }
 
