@@ -22,7 +22,7 @@ setInterval(function(){
     
     i = i + 1
     
-    if(i > (array.length - 1) || i == -1){
+    if(i > (array.length - 1) || i < 0){
         i = 0
     }
 
